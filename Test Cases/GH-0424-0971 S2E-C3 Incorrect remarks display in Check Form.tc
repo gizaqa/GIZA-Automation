@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GH-0424-0971 S2E-C3 Incorrect remarks display in Check Form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62483e5d-e41a-4b4d-b944-ce031911bcfe</testCaseGuid>
+</TestCaseEntity>

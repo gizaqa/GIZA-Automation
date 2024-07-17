@@ -20,9 +20,13 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 
-Windows.startApplicationWithTitle('C:\\Program Files\\GIZA\\GIZA.exe', '')
+Windows.startApplicationWithTitle('C:\\Program Files\\GIZA\\GIZA.exe', 'GIZA')
+
+Windows.click(findWindowsObject('Object Repository/Edit'))
 
 Windows.clearText(findWindowsObject('Object Repository/Edit'))
+
+Windows.click(findWindowsObject('Object Repository/Edit'))
 
 Windows.setText(findWindowsObject('Object Repository/Edit'), '28080@192.168.0.148\r\n')
 
@@ -55,9 +59,8 @@ List<WebElement> childElements = paneElement.findElements(By.xpath(".//*"))
 for (WebElement child : childElements) {
 	String partsCheck = child.getText()
 	if (partsCheck == "Local Buckling Capacity :") {
-          KeywordUtil.markFailed("Check should not display: " + partsCheck)
+          KeywordUtil.markFailed(partsCheck + "Check should not display!")
     }
 }
 
-Windows.click(findWindowsObject('Object Repository/Button(7)'))
 

@@ -59,7 +59,7 @@ List<WebElement> childElements = paneElement.findElements(By.xpath('.//*'))
 for (WebElement child : childElements) {
     String partsCheck = child.getText()
 
-    if (partsCheck == 'Local Buckling Capacity :') {
+    if (partsCheck.contains('Local Buckling Capacity')) {
         KeywordUtil.markFailed(partsCheck + ' Check should not display!')
     }
 }

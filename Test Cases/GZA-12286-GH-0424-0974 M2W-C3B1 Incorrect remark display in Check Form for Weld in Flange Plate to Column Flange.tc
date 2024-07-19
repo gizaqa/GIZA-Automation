@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GH-0424-0974 M2W-C3B1 Incorrect remark display in Check Form for Weld in Flange Plate to Column Flange</name>
+   <name>GZA-12286-GH-0424-0974 M2W-C3B1 Incorrect remark display in Check Form for Weld in Flange Plate to Column Flange</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

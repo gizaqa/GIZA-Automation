@@ -44,9 +44,9 @@ WebElement weldCapacitypane = Windows.findElement(findWindowsObject('Object Repo
 
 String weldCapacity = weldCapacitypane.getText()
 
-// Get the list of child elements
-//List<WebElement> childElements = weldCapacitypane.findElements(By.xpath('.//*'))
+// Sample >> CJP Weld Capacity > Force Applied, UCV = 0.151, OK
+// Replace the expected result with this >> Weld Type is either not applicable or not yet supported, NOT OK
 if (weldCapacity.contains('CJP Weld Capacity > Force Applied, UCV = 0.151, OK')) {
-    KeywordUtil.markFailed(weldCapacity + ' Check should not display!')
+    KeywordUtil.markFailed(weldCapacity + ' is an incorrect result!')
 }
 

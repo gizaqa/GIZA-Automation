@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GH-0424-0971 S2E-C3 Incorrect remarks display in Check Form</name>
+   <name>GZA-12182-GH-0424-0971 S2E-C3 Incorrect remarks display in Check Form</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
